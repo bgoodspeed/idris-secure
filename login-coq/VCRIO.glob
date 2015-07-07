@@ -1,0 +1,911 @@
+FVCRIO
+R303:306 Ynot.Ynot <> <> lib
+R325:329 Ynot.Basis <> <> lib
+R347:351 Coq.Strings.Ascii <> <> lib
+R369:374 Coq.Strings.String <> <> lib
+R392:395 Coq.Lists.List <> <> lib
+R413:416 IO.RSep <> <> lib
+R434:439 Coq.NArith.NArith <> <> lib
+R457:461 Coq.Arith.Arith <> <> lib
+def 536:556 <> length_in_size_helper
+R563:566 Coq.Init.Datatypes <> list ind
+R568:572 Coq.Strings.Ascii <> ascii ind
+R580:587 Coq.NArith.BinPos <> positive ind
+R614:616 Coq.Init.Datatypes <> nil constr
+R630:633 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R641:661 VCRIO <> length_in_size_helper def
+R667:671 Coq.NArith.BinPos <> Psucc def
+def 696:709 <> length_in_size
+R716:719 Coq.Init.Datatypes <> list ind
+R721:725 Coq.Strings.Ascii <> ascii ind
+R734:754 VCRIO <> length_in_size_helper def
+prf 777:784 <> psucc_ge
+R807:810 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R800:804 Coq.NArith.BinPos <> Psucc def
+R867:869 Coq.NArith.BinPos <> ZC2 thm
+R894:906 Coq.NArith.BinPos <> Pcompare_p_Sp thm
+R867:869 Coq.NArith.BinPos <> ZC2 thm
+R894:906 Coq.NArith.BinPos <> Pcompare_p_Sp thm
+prf 922:927 <> not_lt
+R949:953 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R943:946 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R947:948 Coq.Init.Datatypes <> Lt constr
+R960:963 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R955:957 Coq.Init.Logic <> :type_scope:x_'='_x not
+R958:959 Coq.Init.Datatypes <> Gt constr
+R965:967 Coq.Init.Logic <> :type_scope:x_'='_x not
+R968:969 Coq.Init.Datatypes <> Eq constr
+prf 1160:1171 <> pos_ge_trans
+R1242:1245 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1219:1222 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1196:1199 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1336:1341 VCRIO <> not_lt thm
+R1336:1341 VCRIO <> not_lt thm
+R1360:1365 VCRIO <> not_lt thm
+R1360:1365 VCRIO <> not_lt thm
+R1410:1412 Coq.NArith.BinPos <> ZC2 thm
+R1422:1430 Coq.NArith.BinPos <> Plt_trans thm
+R1453:1455 Coq.NArith.BinPos <> ZC1 thm
+R1410:1412 Coq.NArith.BinPos <> ZC2 thm
+R1422:1430 Coq.NArith.BinPos <> Plt_trans thm
+R1453:1455 Coq.NArith.BinPos <> ZC1 thm
+R1453:1455 Coq.NArith.BinPos <> ZC1 thm
+R1480:1493 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R1480:1493 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R1554:1567 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R1554:1567 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R1610:1623 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+R1610:1623 Coq.NArith.BinPos <> Pcompare_Eq_eq thm
+prf 1665:1667 <> lsi
+R1688:1688 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1716:1720 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1689:1709 VCRIO <> length_in_size_helper def
+R1801:1813 Coq.NArith.BinPos <> Pcompare_refl thm
+R1801:1813 Coq.NArith.BinPos <> Pcompare_refl thm
+R1883:1890 VCRIO <> psucc_ge thm
+R1883:1890 VCRIO <> psucc_ge thm
+R1974:1978 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1987:1987 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1931:1951 VCRIO <> length_in_size_helper def
+R1957:1961 Coq.NArith.BinPos <> Psucc def
+R1964:1968 Coq.NArith.BinPos <> Psucc def
+R1979:1983 Coq.NArith.BinPos <> Psucc def
+R1974:1978 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1987:1987 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R1931:1951 VCRIO <> length_in_size_helper def
+R1957:1961 Coq.NArith.BinPos <> Psucc def
+R1964:1968 Coq.NArith.BinPos <> Psucc def
+R1979:1983 Coq.NArith.BinPos <> Psucc def
+R2024:2024 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R2033:2037 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R2025:2029 Coq.NArith.BinPos <> Psucc def
+R2024:2024 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R2033:2037 Coq.NArith.BinPos <> :positive_scope:x_'>='_x not
+R2025:2029 Coq.NArith.BinPos <> Psucc def
+R2060:2067 VCRIO <> psucc_ge thm
+R2060:2067 VCRIO <> psucc_ge thm
+R2082:2093 VCRIO <> pos_ge_trans thm
+R2082:2093 VCRIO <> pos_ge_trans thm
+def 2129:2132 <> size
+R2137:2144 Coq.NArith.BinPos <> positive ind
+R2153:2155 Coq.NArith.BinPos <> :positive_scope:x_'+'_x not
+prf 2176:2187 <> psucc_plus_1
+R2210:2212 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2203:2207 Coq.NArith.BinPos <> Psucc def
+R2215:2217 Coq.NArith.BinPos <> :positive_scope:x_'+'_x not
+ax 2355:2363 <> file_desc
+ax 2378:2382 <> ichan
+ax 2401:2405 <> ochan
+var 2428:2432 <> stdin
+R2437:2445 VCRIO <> file_desc prfax
+var 2457:2462 <> stdout
+R2466:2474 VCRIO <> file_desc prfax
+ax 2708:2727 <> is_safe_sock_dest_on
+R2759:2762 Coq.Init.Datatypes <> bool ind
+R2745:2748 Coq.Init.Datatypes <> list ind
+R2750:2754 Coq.Strings.Ascii <> ascii ind
+R2731:2734 Coq.Init.Datatypes <> list ind
+R2736:2740 Coq.Strings.Ascii <> ascii ind
+ax 2877:2888 <> tab_id_to_la
+R2902:2905 Coq.Init.Datatypes <> list ind
+R2907:2911 Coq.Strings.Ascii <> ascii ind
+R2893:2897 VCRIO <> ichan prfax
+ax 3068:3077 <> get_tab_id
+R3095:3099 VCRIO <> ichan prfax
+R3081:3084 Coq.Init.Datatypes <> list ind
+R3086:3090 Coq.Strings.Ascii <> ascii ind
+ax 3195:3214 <> get_topdomain_cookie
+R3232:3235 Coq.Init.Datatypes <> list ind
+R3237:3241 Coq.Strings.Ascii <> ascii ind
+R3218:3221 Coq.Init.Datatypes <> list ind
+R3223:3227 Coq.Strings.Ascii <> ascii ind
+ax 3337:3353 <> get_topdomain_tab
+R3371:3374 Coq.Init.Datatypes <> list ind
+R3376:3380 Coq.Strings.Ascii <> ascii ind
+R3357:3360 Coq.Init.Datatypes <> list ind
+R3362:3366 Coq.Strings.Ascii <> ascii ind
+def 3393:3417 <> get_cookie_content_helper
+R3423:3426 Coq.Init.Datatypes <> list ind
+R3428:3432 Coq.Strings.Ascii <> ascii ind
+R3440:3442 Coq.Init.Datatypes <> nat ind
+R3447:3450 Coq.Init.Datatypes <> list ind
+R3452:3456 Coq.Strings.Ascii <> ascii ind
+R3464:3470 Coq.Arith.EqNat <> beq_nat def
+R3514:3517 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3525:3549 VCRIO <> get_cookie_content_helper def
+R3556:3556 Coq.Init.Datatypes <> S constr
+R3569:3571 Coq.Init.Datatypes <> nil constr
+R3576:3578 Coq.Init.Datatypes <> nil constr
+def 3684:3701 <> get_cookie_content
+R3707:3710 Coq.Init.Datatypes <> list ind
+R3712:3716 Coq.Strings.Ascii <> ascii ind
+R3721:3724 Coq.Init.Datatypes <> list ind
+R3726:3730 Coq.Strings.Ascii <> ascii ind
+R3737:3761 VCRIO <> get_cookie_content_helper def
+R3780:3797 VCRIO <> get_cookie_content def
+ax 3807:3810 <> iceq
+R3840:3840 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3850:3854 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3865:3865 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3844:3846 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3858:3861 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3832:3836 VCRIO <> ichan prfax
+R3832:3836 VCRIO <> ichan prfax
+ax 3875:3886 <> file_desc_eq
+R3918:3918 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3926:3930 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3939:3939 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3921:3923 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3933:3936 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3906:3914 VCRIO <> file_desc prfax
+R3906:3914 VCRIO <> file_desc prfax
+ax 3949:3952 <> oceq
+R3982:3982 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3992:3996 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4007:4007 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3986:3988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4000:4003 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3974:3978 VCRIO <> ochan prfax
+R3974:3978 VCRIO <> ochan prfax
+def 4034:4036 <> tab
+R4042:4045 Coq.Init.Datatypes <> prod ind
+R4107:4112 Coq.Init.Datatypes <> option ind
+R4114:4118 VCRIO <> ichan prfax
+R4048:4051 Coq.Init.Datatypes <> prod ind
+R4093:4096 Coq.Init.Datatypes <> list ind
+R4098:4102 Coq.Strings.Ascii <> ascii ind
+R4054:4057 Coq.Init.Datatypes <> prod ind
+R4079:4082 Coq.Init.Datatypes <> list ind
+R4084:4088 Coq.Strings.Ascii <> ascii ind
+R4060:4063 Coq.Init.Datatypes <> prod ind
+R4071:4075 VCRIO <> ochan prfax
+R4065:4069 VCRIO <> ichan prfax
+def 4171:4173 <> t2k
+R4179:4181 VCRIO <> tab def
+R4186:4190 VCRIO <> ichan prfax
+R4197:4199 Coq.Init.Datatypes <> fst def
+R4202:4204 Coq.Init.Datatypes <> fst def
+R4207:4209 Coq.Init.Datatypes <> fst def
+R4212:4214 Coq.Init.Datatypes <> fst def
+def 4290:4292 <> k2t
+R4298:4300 VCRIO <> tab def
+R4305:4309 VCRIO <> ochan prfax
+R4316:4318 Coq.Init.Datatypes <> snd def
+R4321:4323 Coq.Init.Datatypes <> fst def
+R4326:4328 Coq.Init.Datatypes <> fst def
+R4331:4333 Coq.Init.Datatypes <> fst def
+def 4382:4393 <> tab_init_url
+R4399:4401 VCRIO <> tab def
+R4406:4409 Coq.Init.Datatypes <> list ind
+R4411:4415 Coq.Strings.Ascii <> ascii ind
+R4422:4424 Coq.Init.Datatypes <> snd def
+R4427:4429 Coq.Init.Datatypes <> fst def
+R4432:4434 Coq.Init.Datatypes <> fst def
+def 4480:4493 <> tab_origin_url
+R4499:4501 VCRIO <> tab def
+R4506:4509 Coq.Init.Datatypes <> list ind
+R4511:4515 Coq.Strings.Ascii <> ascii ind
+R4522:4524 Coq.Init.Datatypes <> snd def
+R4527:4529 Coq.Init.Datatypes <> fst def
+def 4547:4556 <> create_tab
+R4562:4566 VCRIO <> ichan prfax
+R4573:4577 VCRIO <> ochan prfax
+R4589:4592 Coq.Init.Datatypes <> list ind
+R4594:4598 Coq.Strings.Ascii <> ascii ind
+R4610:4613 Coq.Init.Datatypes <> list ind
+R4615:4619 Coq.Strings.Ascii <> ascii ind
+R4630:4635 Coq.Init.Datatypes <> option ind
+R4637:4641 VCRIO <> ichan prfax
+R4645:4647 VCRIO <> tab def
+R4655:4658 Coq.Init.Datatypes <> pair constr
+R4661:4664 Coq.Init.Datatypes <> pair constr
+R4667:4670 Coq.Init.Datatypes <> pair constr
+R4673:4676 Coq.Init.Datatypes <> pair constr
+def 4749:4753 <> cproc
+R4759:4762 Coq.Init.Datatypes <> prod ind
+R4784:4787 Coq.Init.Datatypes <> list ind
+R4789:4793 Coq.Strings.Ascii <> ascii ind
+R4765:4768 Coq.Init.Datatypes <> prod ind
+R4776:4780 VCRIO <> ochan prfax
+R4770:4774 VCRIO <> ichan prfax
+def 4850:4852 <> c2k
+R4858:4862 VCRIO <> cproc def
+R4867:4871 VCRIO <> ichan prfax
+R4878:4880 Coq.Init.Datatypes <> fst def
+R4883:4885 Coq.Init.Datatypes <> fst def
+def 4940:4942 <> k2c
+R4948:4952 VCRIO <> cproc def
+R4957:4961 VCRIO <> ochan prfax
+R4968:4970 Coq.Init.Datatypes <> snd def
+R4973:4975 Coq.Init.Datatypes <> fst def
+def 5022:5033 <> cproc_domain
+R5039:5043 VCRIO <> cproc def
+R5048:5051 Coq.Init.Datatypes <> list ind
+R5053:5057 Coq.Strings.Ascii <> ascii ind
+R5064:5066 Coq.Init.Datatypes <> snd def
+def 5083:5094 <> create_cproc
+R5100:5104 VCRIO <> ichan prfax
+R5111:5115 VCRIO <> ochan prfax
+R5127:5130 Coq.Init.Datatypes <> list ind
+R5132:5136 Coq.Strings.Ascii <> ascii ind
+R5140:5144 VCRIO <> cproc def
+R5152:5155 Coq.Init.Datatypes <> pair constr
+R5158:5161 Coq.Init.Datatypes <> pair constr
+ind 5192:5197 <> Action
+constr 5212:5219 <> MousePos
+constr 5248:5252 <> ReadN
+constr 5302:5309 <> ReadFile
+constr 5346:5357 <> WriteStrFile
+constr 5399:5404 <> WriteN
+constr 5454:5458 <> MkTab
+constr 5480:5486 <> MkCProc
+constr 5510:5516 <> Endorse
+constr 5539:5545 <> KillTab
+constr 5567:5576 <> SendSocket
+constr 5626:5629 <> Wget
+constr 5673:5682 <> FakeAction
+R5237:5242 VCRIO <> Action ind
+R5223:5226 Coq.Init.Datatypes <> list ind
+R5228:5232 Coq.Strings.Ascii <> ascii ind
+R5291:5296 VCRIO <> Action ind
+R5277:5280 Coq.Init.Datatypes <> list ind
+R5282:5286 Coq.Strings.Ascii <> ascii ind
+R5265:5272 Coq.NArith.BinPos <> positive ind
+R5256:5260 VCRIO <> ichan prfax
+R5335:5340 VCRIO <> Action ind
+R5326:5330 Coq.Strings.Ascii <> ascii ind
+R5313:5321 VCRIO <> file_desc prfax
+R5388:5393 VCRIO <> Action ind
+R5374:5377 Coq.Init.Datatypes <> list ind
+R5379:5383 Coq.Strings.Ascii <> ascii ind
+R5361:5369 VCRIO <> file_desc prfax
+R5443:5448 VCRIO <> Action ind
+R5429:5432 Coq.Init.Datatypes <> list ind
+R5434:5438 Coq.Strings.Ascii <> ascii ind
+R5417:5424 Coq.NArith.BinPos <> positive ind
+R5408:5412 VCRIO <> ochan prfax
+R5469:5474 VCRIO <> Action ind
+R5462:5464 VCRIO <> tab def
+R5499:5504 VCRIO <> Action ind
+R5490:5494 VCRIO <> cproc def
+R5528:5533 VCRIO <> Action ind
+R5520:5523 Coq.Init.Datatypes <> bool ind
+R5556:5561 VCRIO <> Action ind
+R5549:5551 VCRIO <> tab def
+R5615:5620 VCRIO <> Action ind
+R5601:5604 Coq.Init.Datatypes <> list ind
+R5606:5610 Coq.Strings.Ascii <> ascii ind
+R5587:5590 Coq.Init.Datatypes <> list ind
+R5592:5596 Coq.Strings.Ascii <> ascii ind
+R5580:5582 VCRIO <> tab def
+R5662:5667 VCRIO <> Action ind
+R5648:5651 Coq.Init.Datatypes <> list ind
+R5653:5657 Coq.Strings.Ascii <> ascii ind
+R5634:5637 Coq.Init.Datatypes <> list ind
+R5639:5643 Coq.Strings.Ascii <> ascii ind
+R5693:5698 VCRIO <> Action ind
+R5686:5688 Coq.Init.Datatypes <> nat ind
+def 5713:5716 <> laeq
+R5727:5730 Coq.Init.Datatypes <> list ind
+R5732:5736 Coq.Strings.Ascii <> ascii ind
+R5744:5754 Coq.Lists.List <> list_eq_dec thm
+R5756:5764 Coq.Strings.Ascii <> ascii_dec def
+R5780:5783 VCRIO <> laeq def
+def 5797:5811 <> positive_eq_dec
+R5836:5836 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5840:5842 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5847:5847 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5838:5838 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5844:5845 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R5826:5833 Coq.NArith.BinPos <> positive ind
+R5826:5833 Coq.NArith.BinPos <> positive ind
+def 5893:5897 <> tabeq
+R5923:5923 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5931:5935 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5944:5944 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5926:5928 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5938:5941 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R5917:5919 VCRIO <> tab def
+R5917:5919 VCRIO <> tab def
+R6000:6003 VCRIO <> iceq prfax
+R6000:6003 VCRIO <> iceq prfax
+R6040:6043 VCRIO <> oceq prfax
+R6040:6043 VCRIO <> oceq prfax
+R6054:6057 VCRIO <> iceq prfax
+R6054:6057 VCRIO <> iceq prfax
+def 6077:6083 <> cproceq
+R6111:6111 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6119:6123 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6132:6132 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6114:6116 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6126:6129 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R6103:6107 VCRIO <> cproc def
+R6103:6107 VCRIO <> cproc def
+R6259:6262 VCRIO <> oceq prfax
+R6259:6262 VCRIO <> oceq prfax
+R6273:6276 VCRIO <> iceq prfax
+R6273:6276 VCRIO <> iceq prfax
+def 6296:6300 <> Trace
+R6313:6316 Coq.Init.Datatypes <> list ind
+R6318:6323 VCRIO <> Action ind
+def 6338:6343 <> coqtab
+R6355:6358 Coq.Init.Datatypes <> list ind
+R6360:6364 Coq.Strings.Ascii <> ascii ind
+R6385:6387 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6377:6379 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6372:6376 VCRIO <> ichan prfax
+R6380:6384 VCRIO <> ochan prfax
+R6388:6391 Coq.Init.Datatypes <> list ind
+R6393:6397 Coq.Strings.Ascii <> ascii ind
+R6407:6412 Coq.Init.Datatypes <> option ind
+R6414:6416 VCRIO <> tab def
+R6421:6423 VCRIO <> tab def
+R6515:6524 VCRIO <> create_tab def
+R6587:6590 Coq.Init.Datatypes <> Some constr
+R6598:6601 Coq.Init.Datatypes <> Some constr
+R6604:6606 VCRIO <> t2k def
+R6624:6627 Coq.Init.Datatypes <> None constr
+R6632:6635 Coq.Init.Datatypes <> None constr
+R6500:6502 Coq.Init.Datatypes <> snd def
+R6469:6471 Coq.Init.Datatypes <> snd def
+R6474:6476 Coq.Init.Datatypes <> fst def
+R6440:6442 Coq.Init.Datatypes <> fst def
+R6445:6447 Coq.Init.Datatypes <> fst def
+def 6670:6677 <> coqcproc
+R6688:6691 Coq.Init.Datatypes <> list ind
+R6693:6697 Coq.Strings.Ascii <> ascii ind
+R6710:6712 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6705:6709 VCRIO <> ichan prfax
+R6713:6717 VCRIO <> ochan prfax
+R6722:6726 VCRIO <> cproc def
+R6781:6792 VCRIO <> create_cproc def
+R6766:6768 Coq.Init.Datatypes <> snd def
+R6743:6745 Coq.Init.Datatypes <> fst def
+ax 6813:6816 <> gout
+R6823:6827 VCRIO <> ochan prfax
+ax 6836:6842 <> ihandle
+R6855:6859 Ynot.Hprop <> hprop def
+R6846:6850 VCRIO <> ichan prfax
+ax 6868:6874 <> ohandle
+R6887:6891 Ynot.Hprop <> hprop def
+R6878:6882 VCRIO <> ochan prfax
+ax 6900:6905 <> traced
+R6919:6923 Ynot.Hprop <> hprop def
+R6910:6914 VCRIO <> Trace def
+ax 6932:6938 <> fhandle
+R6955:6959 Ynot.Hprop <> hprop def
+R6942:6950 VCRIO <> file_desc prfax
+def 6975:6981 <> thandle
+R6987:6989 VCRIO <> tab def
+R6994:6998 Ynot.Hprop <> hprop def
+R7020:7022 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7005:7011 VCRIO <> ihandle prfax
+R7014:7016 VCRIO <> t2k def
+R7023:7029 VCRIO <> ohandle prfax
+R7032:7034 VCRIO <> k2t def
+def 7052:7058 <> chandle
+R7064:7068 VCRIO <> cproc def
+R7073:7077 Ynot.Hprop <> hprop def
+R7099:7101 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7084:7090 VCRIO <> ihandle prfax
+R7093:7095 VCRIO <> c2k def
+R7102:7108 VCRIO <> ohandle prfax
+R7111:7113 VCRIO <> k2c def
+ax 7140:7144 <> readn
+R7198:7202 Ynot.STsep <> STsep def
+R7255:7258 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7314:7316 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7286:7288 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7259:7264 VCRIO <> traced prfax
+R7279:7282 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7267:7271 VCRIO <> ReadN constr
+R7289:7290 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R7313:7313 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R7308:7311 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7291:7304 VCRIO <> length_in_size def
+R7317:7323 VCRIO <> ihandle prfax
+R7207:7210 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7220:7222 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7211:7216 VCRIO <> traced prfax
+R7223:7229 VCRIO <> ihandle prfax
+R7186:7186 Ynot.Util <> :type_scope:'['_x_']' not
+R7192:7192 Ynot.Util <> :type_scope:'['_x_']' not
+R7187:7191 VCRIO <> Trace def
+R7171:7178 Coq.NArith.BinPos <> positive ind
+R7160:7164 VCRIO <> ichan prfax
+ax 7336:7343 <> readfile
+R7387:7391 Ynot.STsep <> STsep def
+R7449:7452 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7480:7482 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7453:7458 VCRIO <> traced prfax
+R7473:7476 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7461:7468 VCRIO <> ReadFile constr
+R7483:7489 VCRIO <> fhandle prfax
+R7438:7442 Coq.Strings.Ascii <> ascii ind
+R7396:7399 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7409:7411 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7400:7405 VCRIO <> traced prfax
+R7412:7418 VCRIO <> fhandle prfax
+R7375:7375 Ynot.Util <> :type_scope:'['_x_']' not
+R7381:7381 Ynot.Util <> :type_scope:'['_x_']' not
+R7376:7380 VCRIO <> Trace def
+R7359:7367 VCRIO <> file_desc prfax
+ax 7502:7513 <> writestrfile
+R7575:7579 Ynot.STsep <> STsep def
+R7636:7639 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7673:7675 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7640:7645 VCRIO <> traced prfax
+R7666:7669 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7648:7659 VCRIO <> WriteStrFile constr
+R7676:7682 VCRIO <> fhandle prfax
+R7626:7629 Coq.Init.Datatypes <> unit ind
+R7584:7587 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7597:7599 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7588:7593 VCRIO <> traced prfax
+R7600:7606 VCRIO <> fhandle prfax
+R7563:7563 Ynot.Util <> :type_scope:'['_x_']' not
+R7569:7569 Ynot.Util <> :type_scope:'['_x_']' not
+R7564:7568 VCRIO <> Trace def
+R7546:7549 Coq.Init.Datatypes <> list ind
+R7551:7555 Coq.Strings.Ascii <> ascii ind
+R7529:7537 VCRIO <> file_desc prfax
+ax 7695:7702 <> mousepos
+R7727:7731 Ynot.STsep <> STsep def
+R7770:7773 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7774:7779 VCRIO <> traced prfax
+R7782:7782 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7798:7802 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7783:7790 VCRIO <> MousePos constr
+R7736:7739 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7740:7745 VCRIO <> traced prfax
+R7717:7717 Ynot.Util <> :type_scope:'['_x_']' not
+R7723:7723 Ynot.Util <> :type_scope:'['_x_']' not
+R7718:7722 VCRIO <> Trace def
+ax 7816:7821 <> writen
+R7892:7896 Ynot.STsep <> STsep def
+R7953:7956 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7984:7986 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7957:7962 VCRIO <> traced prfax
+R7977:7980 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7965:7970 VCRIO <> WriteN constr
+R7987:7993 VCRIO <> ohandle prfax
+R7943:7946 Coq.Init.Datatypes <> unit ind
+R7901:7904 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R7914:7916 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R7905:7910 VCRIO <> traced prfax
+R7917:7923 VCRIO <> ohandle prfax
+R7880:7880 Ynot.Util <> :type_scope:'['_x_']' not
+R7886:7886 Ynot.Util <> :type_scope:'['_x_']' not
+R7881:7885 VCRIO <> Trace def
+R7863:7866 Coq.Init.Datatypes <> list ind
+R7868:7872 Coq.Strings.Ascii <> ascii ind
+R7848:7855 Coq.NArith.BinPos <> positive ind
+R7837:7841 VCRIO <> ochan prfax
+ax 8006:8010 <> mktab
+R8116:8120 Ynot.STsep <> STsep def
+R8245:8248 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8330:8333 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8307:8309 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8289:8291 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8271:8273 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8249:8254 VCRIO <> traced prfax
+R8264:8267 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R8257:8261 VCRIO <> MkTab constr
+R8274:8280 VCRIO <> ihandle prfax
+R8283:8285 VCRIO <> t2k def
+R8292:8298 VCRIO <> ohandle prfax
+R8301:8303 VCRIO <> k2t def
+R8310:8310 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8329:8329 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8311:8312 Coq.Init.Logic <> :type_scope:'~'_x not
+R8313:8314 Coq.Lists.List <> In def
+R8317:8319 VCRIO <> t2k def
+R8334:8334 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8354:8354 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8335:8336 Coq.Init.Logic <> :type_scope:'~'_x not
+R8337:8338 Coq.Lists.List <> In def
+R8341:8343 VCRIO <> k2t def
+R8209:8214 VCRIO <> coqtab def
+R8171:8173 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R8163:8165 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R8158:8162 VCRIO <> ichan prfax
+R8166:8170 VCRIO <> ochan prfax
+R8174:8177 Coq.Init.Datatypes <> list ind
+R8179:8183 Coq.Strings.Ascii <> ascii ind
+R8125:8128 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8129:8134 VCRIO <> traced prfax
+R8104:8104 Ynot.Util <> :type_scope:'['_x_']' not
+R8110:8110 Ynot.Util <> :type_scope:'['_x_']' not
+R8105:8109 VCRIO <> Trace def
+R8087:8092 Coq.Init.Datatypes <> option ind
+R8094:8096 VCRIO <> tab def
+R8068:8071 Coq.Init.Datatypes <> list ind
+R8073:8077 VCRIO <> ochan prfax
+R8047:8050 Coq.Init.Datatypes <> list ind
+R8052:8056 VCRIO <> ichan prfax
+R8027:8030 Coq.Init.Datatypes <> list ind
+R8032:8036 Coq.Strings.Ascii <> ascii ind
+ax 8365:8371 <> mkcproc
+R8461:8465 Ynot.STsep <> STsep def
+R8577:8580 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8664:8667 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8641:8643 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8623:8625 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8605:8607 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R8581:8586 VCRIO <> traced prfax
+R8598:8601 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R8589:8595 VCRIO <> MkCProc constr
+R8608:8614 VCRIO <> ihandle prfax
+R8617:8619 VCRIO <> c2k def
+R8626:8632 VCRIO <> ohandle prfax
+R8635:8637 VCRIO <> k2c def
+R8644:8644 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8663:8663 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8645:8646 Coq.Init.Logic <> :type_scope:'~'_x not
+R8647:8648 Coq.Lists.List <> In def
+R8651:8653 VCRIO <> c2k def
+R8668:8668 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8688:8688 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R8669:8670 Coq.Init.Logic <> :type_scope:'~'_x not
+R8671:8672 Coq.Lists.List <> In def
+R8675:8677 VCRIO <> k2c def
+R8541:8548 VCRIO <> coqcproc def
+R8508:8510 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R8503:8507 VCRIO <> ichan prfax
+R8511:8515 VCRIO <> ochan prfax
+R8470:8473 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8474:8479 VCRIO <> traced prfax
+R8449:8449 Ynot.Util <> :type_scope:'['_x_']' not
+R8455:8455 Ynot.Util <> :type_scope:'['_x_']' not
+R8450:8454 VCRIO <> Trace def
+R8432:8435 Coq.Init.Datatypes <> list ind
+R8437:8441 VCRIO <> ochan prfax
+R8411:8414 Coq.Init.Datatypes <> list ind
+R8416:8420 VCRIO <> ichan prfax
+R8391:8394 Coq.Init.Datatypes <> list ind
+R8396:8400 Coq.Strings.Ascii <> ascii ind
+ax 8699:8705 <> killtab
+R8743:8747 Ynot.STsep <> STsep def
+R8792:8795 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8796:8801 VCRIO <> traced prfax
+R8813:8815 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R8804:8810 VCRIO <> KillTab constr
+R8782:8785 Coq.Init.Datatypes <> unit ind
+R8752:8755 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R8756:8761 VCRIO <> traced prfax
+R8731:8731 Ynot.Util <> :type_scope:'['_x_']' not
+R8737:8737 Ynot.Util <> :type_scope:'['_x_']' not
+R8732:8736 VCRIO <> Trace def
+R8721:8723 VCRIO <> tab def
+ax 8914:8923 <> sendsocket
+R9004:9008 Ynot.STsep <> STsep def
+R9065:9068 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9111:9113 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R9069:9074 VCRIO <> traced prfax
+R9104:9107 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R9077:9086 VCRIO <> SendSocket constr
+R9114:9120 VCRIO <> thandle def
+R9055:9058 Coq.Init.Datatypes <> unit ind
+R9013:9016 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9026:9028 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R9017:9022 VCRIO <> traced prfax
+R9029:9035 VCRIO <> thandle def
+R8992:8992 Ynot.Util <> :type_scope:'['_x_']' not
+R8998:8998 Ynot.Util <> :type_scope:'['_x_']' not
+R8993:8997 VCRIO <> Trace def
+R8975:8978 Coq.Init.Datatypes <> list ind
+R8980:8984 Coq.Strings.Ascii <> ascii ind
+R8950:8953 Coq.Init.Datatypes <> list ind
+R8955:8959 Coq.Strings.Ascii <> ascii ind
+R8939:8941 VCRIO <> tab def
+ax 9133:9136 <> wget
+R9183:9187 Ynot.STsep <> STsep def
+R9254:9257 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9258:9263 VCRIO <> traced prfax
+R9279:9282 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R9266:9269 VCRIO <> Wget constr
+R9227:9230 Coq.Init.Datatypes <> list ind
+R9232:9236 Coq.Strings.Ascii <> ascii ind
+R9192:9195 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9196:9201 VCRIO <> traced prfax
+R9171:9171 Ynot.Util <> :type_scope:'['_x_']' not
+R9177:9177 Ynot.Util <> :type_scope:'['_x_']' not
+R9172:9176 VCRIO <> Trace def
+R9154:9157 Coq.Init.Datatypes <> list ind
+R9159:9163 Coq.Strings.Ascii <> ascii ind
+ax 9296:9302 <> endorse
+R9331:9335 Ynot.STsep <> STsep def
+R9395:9398 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9399:9404 VCRIO <> traced prfax
+R9418:9421 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R9407:9413 VCRIO <> Endorse constr
+R9374:9377 Coq.Init.Datatypes <> bool ind
+R9340:9343 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9344:9349 VCRIO <> traced prfax
+R9319:9319 Ynot.Util <> :type_scope:'['_x_']' not
+R9325:9325 Ynot.Util <> :type_scope:'['_x_']' not
+R9320:9324 VCRIO <> Trace def
+ax 9435:9440 <> select
+R9506:9510 Ynot.STsep <> STsep def
+R9596:9599 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9658:9671 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R9609:9611 Ynot.Hprop <> :hprop_scope:x_'*'_x not
+R9600:9605 VCRIO <> traced prfax
+R9612:9612 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R9657:9657 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R9637:9640 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R9622:9625 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9636:9636 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9613:9615 Coq.Init.Datatypes <> fst def
+R9626:9629 Coq.Init.Datatypes <> Some constr
+R9650:9653 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R9641:9643 Coq.Init.Datatypes <> snd def
+R9654:9656 Coq.Init.Datatypes <> nil constr
+R9672:9672 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R9714:9714 Ynot.Hprop <> :hprop_scope:'['_x_']' not
+R9705:9706 Coq.Lists.List <> In def
+R9684:9685 Coq.Lists.List <> In def
+R9691:9693 Coq.Init.Datatypes <> snd def
+R9566:9567 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R9578:9578 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R9550:9555 Coq.Init.Datatypes <> option ind
+R9557:9565 VCRIO <> file_desc prfax
+R9568:9571 Coq.Init.Datatypes <> list ind
+R9573:9577 VCRIO <> ichan prfax
+R9515:9518 Ynot.Hprop <> :hprop_scope:x_'~~'_x not
+R9519:9524 VCRIO <> traced prfax
+R9494:9494 Ynot.Util <> :type_scope:'['_x_']' not
+R9500:9500 Ynot.Util <> :type_scope:'['_x_']' not
+R9495:9499 VCRIO <> Trace def
+R9477:9480 Coq.Init.Datatypes <> list ind
+R9482:9486 VCRIO <> ichan prfax
+R9460:9468 VCRIO <> file_desc prfax
+def 9747:9754 <> WroteStr
+R9760:9764 VCRIO <> ochan prfax
+R9771:9774 Coq.Init.Datatypes <> list ind
+R9776:9780 Coq.Strings.Ascii <> ascii ind
+R9785:9790 VCRIO <> Action ind
+R9797:9802 VCRIO <> WriteN constr
+R9807:9820 VCRIO <> length_in_size def
+prf 9836:9844 <> iceq_true
+R9872:9872 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9898:9901 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9876:9879 VCRIO <> iceq prfax
+R9928:9931 VCRIO <> iceq prfax
+R9928:9931 VCRIO <> iceq prfax
+prf 9985:9994 <> iceq_false
+R10040:10040 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10068:10071 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10044:10047 VCRIO <> iceq prfax
+R10028:10031 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R10098:10101 VCRIO <> iceq prfax
+R10098:10101 VCRIO <> iceq prfax
+prf 10165:10181 <> file_desc_eq_true
+R10209:10209 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10243:10246 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10213:10224 VCRIO <> file_desc_eq prfax
+R10279:10290 VCRIO <> file_desc_eq prfax
+R10279:10290 VCRIO <> file_desc_eq prfax
+prf 10337:10354 <> file_desc_eq_false
+R10400:10400 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10436:10439 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10404:10415 VCRIO <> file_desc_eq prfax
+R10388:10391 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R10472:10483 VCRIO <> file_desc_eq prfax
+R10472:10483 VCRIO <> file_desc_eq prfax
+prf 10547:10555 <> oceq_true
+R10583:10583 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10609:10612 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10587:10590 VCRIO <> oceq prfax
+R10639:10642 VCRIO <> oceq prfax
+R10639:10642 VCRIO <> oceq prfax
+prf 10696:10705 <> oceq_false
+R10751:10751 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10780:10783 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10755:10758 VCRIO <> oceq prfax
+R10739:10742 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R10810:10813 VCRIO <> oceq prfax
+R10810:10813 VCRIO <> oceq prfax
+prf 10876:10889 <> ascii_dec_true
+R10917:10917 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10948:10951 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10921:10929 Coq.Strings.Ascii <> ascii_dec def
+R10978:10986 Coq.Strings.Ascii <> ascii_dec def
+R10978:10986 Coq.Strings.Ascii <> ascii_dec def
+prf 11040:11054 <> ascii_dec_false
+R11100:11100 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11133:11136 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11104:11112 Coq.Strings.Ascii <> ascii_dec def
+R11088:11091 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R11163:11171 Coq.Strings.Ascii <> ascii_dec def
+R11163:11171 Coq.Strings.Ascii <> ascii_dec def
+prf 11234:11247 <> rev_nil_eq_nil
+R11294:11296 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11297:11299 Coq.Init.Datatypes <> nil constr
+R11281:11283 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11276:11278 Coq.Lists.List <> rev def
+R11284:11286 Coq.Init.Datatypes <> nil constr
+R11265:11268 Coq.Init.Datatypes <> list ind
+R11345:11347 Coq.Lists.List <> rev def
+R11325:11331 Coq.Init.Logic <> f_equal thm
+R11345:11347 Coq.Lists.List <> rev def
+R11325:11331 Coq.Init.Logic <> f_equal thm
+R11368:11381 Coq.Lists.List <> rev_involutive thm
+R11368:11381 Coq.Lists.List <> rev_involutive thm
+prf 11407:11413 <> rev_inj
+R11469:11471 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11452:11454 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11446:11448 Coq.Lists.List <> rev def
+R11455:11457 Coq.Lists.List <> rev def
+R11435:11438 Coq.Init.Datatypes <> list ind
+R11435:11438 Coq.Init.Datatypes <> list ind
+R11519:11521 Coq.Lists.List <> rev def
+R11499:11505 Coq.Init.Logic <> f_equal thm
+R11519:11521 Coq.Lists.List <> rev def
+R11499:11505 Coq.Init.Logic <> f_equal thm
+R11549:11562 Coq.Lists.List <> rev_involutive thm
+R11549:11562 Coq.Lists.List <> rev_involutive thm
+R11549:11562 Coq.Lists.List <> rev_involutive thm
+R11549:11562 Coq.Lists.List <> rev_involutive thm
+def 11593:11599 <> in_tail
+R11616:11619 Coq.Init.Datatypes <> list ind
+R11654:11655 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R11661:11662 Coq.Lists.List <> In def
+R11672:11674 Coq.Init.Datatypes <> nil constr
+R11680:11684 Coq.Init.Logic <> False ind
+prf 11700:11715 <> in_tail_app_tail
+R11778:11784 VCRIO <> in_tail def
+R11791:11794 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R11765:11768 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R11769:11771 Coq.Init.Datatypes <> nil constr
+R11750:11751 Coq.Lists.List <> In def
+R11737:11740 Coq.Init.Datatypes <> list ind
+R11737:11740 Coq.Init.Datatypes <> list ind
+R11864:11872 Coq.Lists.List <> in_or_app thm
+R11864:11872 Coq.Lists.List <> in_or_app thm
+def 11905:11915 <> in_mod_last
+R11932:11935 Coq.Init.Datatypes <> list ind
+R11958:11960 Coq.Lists.List <> rev def
+R11974:11975 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R11981:11982 Coq.Lists.List <> In def
+R11992:11994 Coq.Init.Datatypes <> nil constr
+R12000:12004 Coq.Init.Logic <> False ind
+prf 12020:12033 <> in_mod_last_or
+R12102:12105 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R12098:12100 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12106:12116 VCRIO <> in_mod_last def
+R12071:12081 VCRIO <> in_mod_last def
+R12087:12088 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R12051:12054 Coq.Init.Datatypes <> list ind
+R12171:12177 Coq.Lists.List <> rev_ind thm
+R12171:12177 Coq.Lists.List <> rev_ind thm
+R12203:12209 IO.RSep <> rev_app thm
+R12203:12209 IO.RSep <> rev_app thm
+R12235:12243 Coq.Lists.List <> in_app_or thm
+R12235:12243 Coq.Lists.List <> in_app_or thm
+ind 12335:12338 <> uniq
+constr 12368:12375 <> uniq_nil
+constr 12397:12405 <> uniq_cons
+R12346:12349 Coq.Init.Datatypes <> list ind
+R12384:12387 VCRIO <> uniq ind
+R12389:12391 Coq.Init.Datatypes <> nil constr
+R12466:12469 VCRIO <> uniq ind
+R12473:12476 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R12448:12449 Coq.Init.Logic <> :type_scope:'~'_x not
+R12450:12451 Coq.Lists.List <> In def
+R12432:12435 VCRIO <> uniq ind
+prf 12489:12496 <> uniq_app
+R12555:12558 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R12548:12551 VCRIO <> uniq ind
+R12559:12562 VCRIO <> uniq ind
+R12529:12532 VCRIO <> uniq ind
+R12537:12540 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R12518:12521 Coq.Init.Datatypes <> list ind
+R12518:12521 Coq.Init.Datatypes <> list ind
+R12652:12660 VCRIO <> uniq_cons constr
+R12652:12660 VCRIO <> uniq_cons constr
+R12771:12779 Coq.Lists.List <> in_or_app thm
+R12771:12779 Coq.Lists.List <> in_or_app thm
+prf 12861:12868 <> uniq_end
+R12925:12928 VCRIO <> uniq ind
+R12932:12935 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R12937:12940 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R12941:12943 Coq.Init.Datatypes <> nil constr
+R12911:12912 Coq.Init.Logic <> :type_scope:'~'_x not
+R12913:12914 Coq.Lists.List <> In def
+R12899:12902 VCRIO <> uniq ind
+R12886:12889 Coq.Init.Datatypes <> list ind
+R13101:13109 Coq.Lists.List <> in_app_or thm
+R13101:13109 Coq.Lists.List <> in_app_or thm
+prf 13216:13235 <> uniq_app_comm_helper
+R13316:13319 VCRIO <> uniq ind
+R13324:13327 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13329:13331 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13297:13300 VCRIO <> uniq ind
+R13305:13308 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13276:13277 Coq.Init.Logic <> :type_scope:'~'_x not
+R13278:13279 Coq.Lists.List <> In def
+R13286:13289 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13265:13268 Coq.Init.Datatypes <> list ind
+R13265:13268 Coq.Init.Datatypes <> list ind
+R13401:13409 VCRIO <> uniq_cons constr
+R13401:13409 VCRIO <> uniq_cons constr
+R13445:13453 VCRIO <> uniq_cons constr
+R13445:13453 VCRIO <> uniq_cons constr
+R13507:13508 Coq.Init.Logic <> :type_scope:'~'_x not
+R13509:13510 Coq.Lists.List <> In def
+R13517:13520 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13507:13508 Coq.Init.Logic <> :type_scope:'~'_x not
+R13509:13510 Coq.Lists.List <> In def
+R13517:13520 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13572:13572 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13581:13585 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13575:13578 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13598:13602 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13611:13611 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13605:13608 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13572:13572 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13581:13585 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13575:13578 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13598:13602 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13611:13611 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R13605:13608 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R13623:13629 Coq.Lists.List <> in_cons thm
+R13623:13629 Coq.Lists.List <> in_cons thm
+R13751:13753 Coq.Init.Logic <> :type_scope:x_'='_x not
+R13751:13753 Coq.Init.Logic <> :type_scope:x_'='_x not
+R13768:13776 Coq.Lists.List <> in_app_or thm
+R13768:13776 Coq.Lists.List <> in_app_or thm
+R13842:13851 Coq.Lists.List <> in_app_iff thm
+R13842:13851 Coq.Lists.List <> in_app_iff thm
+R13944:13953 Coq.Lists.List <> in_app_iff thm
+R13944:13953 Coq.Lists.List <> in_app_iff thm
+prf 14016:14028 <> uniq_app_comm
+R14080:14083 VCRIO <> uniq ind
+R14088:14091 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R14061:14064 VCRIO <> uniq ind
+R14069:14072 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R14050:14053 Coq.Init.Datatypes <> list ind
+R14050:14053 Coq.Init.Datatypes <> list ind
+R14138:14146 Coq.Lists.List <> app_nil_r thm
+R14138:14146 Coq.Lists.List <> app_nil_r thm
+R14205:14224 VCRIO <> uniq_app_comm_helper thm
+R14205:14224 VCRIO <> uniq_app_comm_helper thm
+R14278:14286 Coq.Lists.List <> in_app_or thm
+R14278:14286 Coq.Lists.List <> in_app_or thm
+R14304:14313 Coq.Lists.List <> in_app_iff thm
+R14304:14313 Coq.Lists.List <> in_app_iff thm
+R14324:14330 Coq.Init.Logic <> or_comm thm
+R14324:14330 Coq.Init.Logic <> or_comm thm
+prf 14352:14366 <> map_in_uniq_inv
+R14473:14475 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14460:14461 Coq.Lists.List <> In def
+R14448:14449 Coq.Lists.List <> In def
+R14428:14431 VCRIO <> uniq ind
+R14434:14436 Coq.Lists.List <> map def
+R14416:14418 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14398:14401 Coq.Init.Datatypes <> list ind
+R14612:14617 Coq.Lists.List <> in_map thm
+R14612:14617 Coq.Lists.List <> in_map thm
+R14669:14674 Coq.Lists.List <> in_map thm
+R14669:14674 Coq.Lists.List <> in_map thm

@@ -1,0 +1,6 @@
+.depend
+.extract
+*.v.d
+main.byte
+main.native
+Makefile.coq

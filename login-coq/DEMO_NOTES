@@ -1,0 +1,57 @@
+# Installation stuff
+# Coq - need <= 8.3 for Ynot (separation logic/monads)
+https://coq.inria.fr/download
+# Ynot
+http://ynot.cs.harvard.edu/
+
+
+# Sample source, from StringHelper.v
+
+Fixpoint split_string_r (delimiter : ascii) ( str current_word : string) (accumulated_words : list string) 
+{struct str} : list StringHelperg :=
+match str with
+| EmptyString => current_word :: accumulated_words
+| String a b  => if prefix (String delimiter EmptyString) str then
+  split_string_r delimiter b EmptyString (current_word :: accumulated_words)  
+ else
+  split_string_r delimiter b (append current_word (forallsubstring 0 1 str)) accumulated_words
+ end.
+
+Definition split_string (distribelimiter : ascii) ( str current_word : string) (accumulated_words : list string) : list string :=
+ rev (split_string_r delimiter str current_word accumulated_wordslated_words).
+
+
+ Definition split_string_simplified (delimiter : ascii) (str : string) : list string := split_string delimiter str "" nil.
+
+
+# First proof, from StringHelper.v
+Lemma anyDelimiterOnBlankGivesEmptyStringArrayNonRev :
+forall a : ascii,
+split_string a "" "" nil = [ "" ].
+Proof.
+intros.
+simpl.
+unfold split_string.
+split.
+Qed.
+
+# Second proof, uses first proof, also from StringHelper.v
+Theorem anyDelimiterOnBlankGivesArraySizedAtLeastOne :
+forall a : ascii,
+List.length (split_string_r a "" "" nil) >= 1.
+Proof.
+intros a.
+rewrite anyDelimiterOnBlankGivesEmptyStringArray.
+simpl.
+auto.
+Qed.
+
+# Build coq program, extract ML, compile and run native bin
+make clean && make && make build && ./main.native
+
+# Interactive REPL
+coqtop -l CoqSourceFile.v
+
+# Manual
+
+https://coq.inria.fr/distrib/current/refman/toc.html

@@ -1,0 +1,214 @@
+FStringHelper
+R15:19 Coq.Arith.Arith <> <> lib
+R37:42 Coq.Strings.String <> <> lib
+R60:64 Coq.Strings.Ascii <> <> lib
+R82:85 Coq.Lists.List <> <> lib
+R103:120 Coq.Strings.String <> <> lib
+R178:181 Coq.Init.Datatypes <> cons constr
+not 165 <> ::x_'::'_x
+R242:244 Coq.Init.Datatypes <> nil constr
+not 233 <> ::'['_']'
+R277:280 Coq.Init.Datatypes <> cons constr
+R288:291 Coq.Init.Datatypes <> cons constr
+R295:297 Coq.Init.Datatypes <> nil constr
+not 256 <> ::'['_x_','_'..'_','_x_']'
+def 316:329 <> split_string_r
+R344:348 Coq.Strings.Ascii <> ascii ind
+R372:377 Coq.Strings.String <> string ind
+R401:404 Coq.Init.Datatypes <> list ind
+R406:411 Coq.Strings.String <> string ind
+R431:434 Coq.Init.Datatypes <> list ind
+R436:441 Coq.Strings.String <> string ind
+R465:475 Coq.Strings.String <> EmptyString constr
+R492:495 StringHelper <> ::x_'::'_x not
+R517:522 Coq.Strings.String <> String constr
+R535:540 Coq.Strings.String <> prefix def
+R543:548 Coq.Strings.String <> String constr
+R560:570 Coq.Strings.String <> EmptyString constr
+R676:689 StringHelper <> split_string_r def
+R704:709 Coq.Strings.String <> append def
+R725:733 Coq.Strings.String <> substring def
+R586:599 StringHelper <> split_string_r def
+R638:641 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R613:623 Coq.Strings.String <> EmptyString constr
+def 781:792 <> split_string
+R807:811 Coq.Strings.Ascii <> ascii ind
+R835:840 Coq.Strings.String <> string ind
+R864:867 Coq.Init.Datatypes <> list ind
+R869:874 Coq.Strings.String <> string ind
+R879:882 Coq.Init.Datatypes <> list ind
+R884:889 Coq.Strings.String <> string ind
+R895:897 Coq.Lists.List <> rev def
+R900:913 StringHelper <> split_string_r def
+def 975:997 <> split_string_simplified
+R1012:1016 Coq.Strings.Ascii <> ascii ind
+R1026:1031 Coq.Strings.String <> string ind
+R1036:1039 Coq.Init.Datatypes <> list ind
+R1041:1046 Coq.Strings.String <> string ind
+R1051:1062 StringHelper <> split_string def
+R1081:1083 Coq.Init.Datatypes <> nil constr
+def 1096:1106 <> token_count
+R1117:1121 Coq.Strings.Ascii <> ascii ind
+R1131:1136 Coq.Strings.String <> string ind
+R1141:1143 Coq.Init.Datatypes <> nat ind
+R1168:1178 Coq.Strings.String <> EmptyString constr
+R1188:1193 Coq.Strings.String <> String constr
+R1206:1214 Coq.Strings.Ascii <> ascii_dec def
+R1270:1280 StringHelper <> token_count def
+R1233:1233 Coq.Init.Datatypes <> S constr
+R1236:1246 StringHelper <> token_count def
+def 1307:1327 <> matchingSplitsBegin_r
+R1366:1368 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1330:1343 StringHelper <> split_string_r def
+R1363:1365 Coq.Init.Datatypes <> nil constr
+R1369:1369 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1375:1376 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1382:1383 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1386:1386 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1423:1448 <> matchingSplitsEndOmitted_r
+R1487:1489 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1451:1464 StringHelper <> split_string_r def
+R1484:1486 Coq.Init.Datatypes <> nil constr
+R1490:1490 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1493:1494 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1500:1501 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1507:1507 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1544:1559 <> blankYieldsEmpty
+R1588:1590 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1562:1573 StringHelper <> split_string def
+R1585:1587 Coq.Init.Datatypes <> nil constr
+R1591:1591 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1594:1594 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1631:1648 <> blankYieldsCurWord
+R1680:1682 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1651:1662 StringHelper <> split_string def
+R1677:1679 Coq.Init.Datatypes <> nil constr
+R1683:1683 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1689:1689 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1726:1748 <> noMatchingCharYieldsOne
+R1781:1783 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1751:1762 StringHelper <> split_string def
+R1778:1780 Coq.Init.Datatypes <> nil constr
+R1784:1784 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1791:1791 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1828:1841 <> matchingSplits
+R1877:1879 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1844:1855 StringHelper <> split_string def
+R1874:1876 Coq.Init.Datatypes <> nil constr
+R1880:1880 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1886:1887 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1893:1893 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1930:1948 <> matchingSplitsBegin
+R1985:1987 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1951:1962 StringHelper <> split_string def
+R1982:1984 Coq.Init.Datatypes <> nil constr
+R1988:1988 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1991:1992 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1998:1999 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2005:2005 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 2042:2065 <> matchingSplitsEndOmitted
+R2102:2104 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2068:2079 StringHelper <> split_string def
+R2099:2101 Coq.Init.Datatypes <> nil constr
+R2105:2105 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2111:2112 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2118:2119 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2122:2122 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 2159:2188 <> matchingSplitsEndOmittedSimple
+R2229:2231 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2191:2213 StringHelper <> split_string_simplified def
+R2232:2232 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2238:2239 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2245:2246 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2249:2249 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 2286:2309 <> noOccurencesOfTokenBlank
+R2330:2332 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2312:2322 StringHelper <> token_count def
+def 2370:2394 <> noOccurencesOfTokenString
+R2432:2434 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2397:2407 StringHelper <> token_count def
+def 2472:2494 <> occurencesOfTokenString
+R2536:2538 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2497:2507 StringHelper <> token_count def
+prf 2659:2673 <> revEmptyIsEmpty
+R2688:2690 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2678:2680 Coq.Lists.List <> rev def
+R2682:2683 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2686:2687 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2691:2692 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2695:2696 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+prf 2731:2770 <> anyDelimiterOnBlankGivesEmptyStringArray
+R2820:2822 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2794:2807 StringHelper <> split_string_r def
+R2817:2819 Coq.Init.Datatypes <> nil constr
+R2823:2824 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2827:2828 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2786:2790 Coq.Strings.Ascii <> ascii ind
+prf 2865:2910 <> anyDelimiterOnBlankGivesEmptyStringArrayNonRev
+R2958:2960 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2934:2945 StringHelper <> split_string def
+R2955:2957 Coq.Init.Datatypes <> nil constr
+R2961:2962 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2965:2966 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2926:2930 Coq.Strings.Ascii <> ascii ind
+prf 3039:3082 <> anyDelimiterOnBlankGivesArraySizedAtLeastOne
+R3146:3149 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R3106:3116 Coq.Lists.List <> length syndef
+R3119:3132 StringHelper <> split_string_r def
+R3142:3144 Coq.Init.Datatypes <> nil constr
+R3098:3102 Coq.Strings.Ascii <> ascii ind
+R3180:3219 StringHelper <> anyDelimiterOnBlankGivesEmptyStringArray thm
+R3180:3219 StringHelper <> anyDelimiterOnBlankGivesEmptyStringArray thm
+prf 3250:3295 <> anyDelimiterOnBlankGivesEmptyStringArraySimple
+R3345:3347 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3317:3339 StringHelper <> split_string_simplified def
+R3348:3349 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R3352:3353 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R3310:3314 Coq.Strings.Ascii <> ascii ind
+prf 3427:3476 <> anyDelimiterOnBlankGivesArraySizedAtLeastOneSimple
+R3542:3545 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R3500:3510 Coq.Lists.List <> length syndef
+R3513:3535 StringHelper <> split_string_simplified def
+R3492:3496 Coq.Strings.Ascii <> ascii ind
+R3576:3621 StringHelper <> anyDelimiterOnBlankGivesEmptyStringArraySimple thm
+R3576:3621 StringHelper <> anyDelimiterOnBlankGivesEmptyStringArraySimple thm
+prf 3651:3679 <> consOnlyIncreasesLengthOfList
+R3744:3746 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3729:3739 Coq.Lists.List <> length syndef
+R3747:3757 Coq.Lists.List <> length syndef
+R3761:3764 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3720:3725 Coq.Strings.String <> string ind
+R3695:3698 Coq.Init.Datatypes <> list ind
+R3700:3705 Coq.Strings.String <> string ind
+prf 3795:3824 <> consNeverDecreasesLengthOfList
+R3894:3896 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R3874:3884 Coq.Lists.List <> length syndef
+R3888:3891 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3897:3907 Coq.Lists.List <> length syndef
+R3865:3870 Coq.Strings.String <> string ind
+R3840:3843 Coq.Init.Datatypes <> list ind
+R3845:3850 Coq.Strings.String <> string ind
+prf 4107:4129 <> consAlwaysYieldsGTEZero
+R4180:4183 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4184:4194 Coq.Lists.List <> length syndef
+R4198:4201 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4170:4175 Coq.Strings.String <> string ind
+R4145:4148 Coq.Init.Datatypes <> list ind
+R4150:4155 Coq.Strings.String <> string ind
+prf 4254:4279 <> consAlwaysYieldsGTEZeroNil
+R4360:4363 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R4329:4339 Coq.Lists.List <> length syndef
+R4348:4351 Coq.Init.Datatypes <> list ind
+R4353:4358 Coq.Strings.String <> string ind
+R4342:4344 Coq.Init.Datatypes <> nil constr
+R4364:4374 Coq.Lists.List <> length syndef
+R4378:4381 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R4320:4325 Coq.Strings.String <> string ind
+R4295:4298 Coq.Init.Datatypes <> list ind
+R4300:4305 Coq.Strings.String <> string ind
+prf 4764:4801 <> anyDelimitedOnAnyStringGivesAtLeastOne
+R4885:4888 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R4844:4854 Coq.Lists.List <> length syndef
+R4857:4879 StringHelper <> split_string_simplified def
+R4836:4841 Coq.Strings.String <> string ind
+R4817:4821 Coq.Strings.Ascii <> ascii ind

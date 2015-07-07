@@ -1,0 +1,29 @@
+FLogin
+R69:72 Ynot.Ynot <> <> lib
+R90:94 Ynot.Basis <> <> lib
+R112:115 Coq.Lists.List <> <> lib
+R133:137 Coq.Strings.Ascii <> <> lib
+R155:160 Coq.Strings.String <> <> lib
+R178:181 IO.RSep <> <> lib
+R199:204 Coq.NArith.NArith <> <> lib
+R222:226 Coq.Arith.Arith <> <> lib
+R402:421 AuthenticationSystem <> <> lib
+def 564:567 <> main
+R571:575 Ynot.STsep <> STsep def
+R597:607 Ynot.Hprop <> hprop_empty def
+R589:592 Coq.Init.Datatypes <> unit ind
+R578:579 Ynot.Hprop <> :hprop_scope:'__' not
+R622:634 Ynot.Basis <> printStringLn def
+R640:650 AuthenticationSystem <> check_login def
+R709:712 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R736:739 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R757:760 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R781:784 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R785:787 Coq.Init.Datatypes <> nil constr
+R622:634 Ynot.Basis <> printStringLn def
+R640:650 AuthenticationSystem <> check_login def
+R709:712 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R736:739 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R757:760 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R781:784 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R785:787 Coq.Init.Datatypes <> nil constr

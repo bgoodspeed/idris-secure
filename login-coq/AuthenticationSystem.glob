@@ -1,0 +1,123 @@
+FAuthenticationSystem
+R15:18 Coq.Lists.List <> <> lib
+R36:40 Coq.Strings.Ascii <> <> lib
+R58:63 Coq.Setoids.Setoid <> <> lib
+R81:98 Coq.Strings.String <> <> lib
+R116:127 StringHelper <> <> lib
+def 173:189 <> matching_in_field
+R197:199 Coq.Init.Datatypes <> nat ind
+R210:215 Coq.Strings.String <> string ind
+R223:226 Coq.Init.Datatypes <> list ind
+R229:232 Coq.Init.Datatypes <> list ind
+R234:239 Coq.Strings.String <> string ind
+R245:248 Coq.Init.Datatypes <> list ind
+R250:255 Coq.Strings.String <> string ind
+R281:283 Coq.Init.Datatypes <> nil constr
+R291:293 Coq.Init.Datatypes <> nil constr
+R299:302 StringHelper <> ::x_'::'_x not
+R311:314 Coq.Init.Datatypes <> andb def
+R351:356 Coq.Strings.String <> prefix def
+R359:361 Coq.Lists.List <> nth def
+R317:322 Coq.Strings.String <> prefix def
+R331:333 Coq.Lists.List <> nth def
+R409:425 AuthenticationSystem <> matching_in_field def
+def 454:485 <> matchingInFieldSimpleCaseSuccess
+R559:561 Coq.Init.Logic <> :type_scope:x_'='_x not
+R488:504 AuthenticationSystem <> matching_in_field def
+R514:515 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R532:533 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R548:549 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R557:558 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R550:550 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R556:556 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R534:534 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R540:541 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R547:547 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R516:516 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R523:524 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R531:531 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R562:562 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R568:569 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R575:575 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+prf 610:644 <> emptyDbAlwaysYieldsNilForFixedToken
+R692:694 Coq.Init.Logic <> :type_scope:x_'='_x not
+R666:682 AuthenticationSystem <> matching_in_field def
+R690:691 StringHelper <> ::'['_']' not
+R695:696 StringHelper <> ::'['_']' not
+R660:662 Coq.Init.Datatypes <> nat ind
+prf 731:765 <> emptyDbAlwaysYieldsNilForFixedField
+R814:816 Coq.Init.Logic <> :type_scope:x_'='_x not
+R790:806 AuthenticationSystem <> matching_in_field def
+R812:813 StringHelper <> ::'['_']' not
+R817:818 StringHelper <> ::'['_']' not
+R781:786 Coq.Strings.String <> string ind
+prf 853:874 <> emptyDbAlwaysYieldsNil
+R940:942 Coq.Init.Logic <> :type_scope:x_'='_x not
+R916:932 AuthenticationSystem <> matching_in_field def
+R938:939 StringHelper <> ::'['_']' not
+R943:944 StringHelper <> ::'['_']' not
+R907:912 Coq.Strings.String <> string ind
+R890:892 Coq.Init.Datatypes <> nat ind
+def 984:993 <> string_rev
+R1000:1005 Coq.Strings.String <> string ind
+R1010:1015 Coq.Strings.String <> string ind
+R1037:1047 Coq.Strings.String <> EmptyString constr
+R1052:1062 Coq.Strings.String <> EmptyString constr
+R1067:1072 Coq.Strings.String <> String constr
+R1084:1089 Coq.Strings.String <> append def
+R1110:1115 Coq.Strings.String <> String constr
+R1119:1129 Coq.Strings.String <> EmptyString constr
+R1092:1101 AuthenticationSystem <> string_rev def
+def 1147:1158 <> compute_hash
+R1168:1173 Coq.Strings.String <> string ind
+R1178:1183 Coq.Strings.String <> string ind
+R1188:1197 AuthenticationSystem <> string_rev def
+def 1242:1252 <> check_login
+R1266:1271 Coq.Strings.String <> string ind
+R1284:1287 Coq.Init.Datatypes <> list ind
+R1289:1294 Coq.Strings.String <> string ind
+R1299:1304 Coq.Strings.String <> string ind
+R1505:1508 Coq.Init.Datatypes <> andb def
+R1545:1550 Coq.Strings.String <> prefix def
+R1511:1516 Coq.Strings.String <> prefix def
+R1469:1471 Coq.Lists.List <> nth def
+R1430:1441 AuthenticationSystem <> compute_hash def
+R1324:1340 AuthenticationSystem <> matching_in_field def
+R1350:1352 Coq.Lists.List <> map def
+R1366:1377 StringHelper <> split_string def
+R1390:1392 Coq.Init.Datatypes <> nil constr
+def 1624:1632 <> goodLogin
+R1771:1773 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1637:1647 AuthenticationSystem <> check_login def
+R1665:1666 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1703:1704 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1728:1729 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1747:1748 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1769:1770 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 1814:1821 <> badLogin
+R1962:1964 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1825:1835 AuthenticationSystem <> check_login def
+R1856:1857 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1894:1895 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1919:1920 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1938:1939 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R1960:1961 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+def 2005:2019 <> noSuchUserLogin
+R2164:2166 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2023:2033 AuthenticationSystem <> check_login def
+R2058:2059 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2096:2097 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2121:2122 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2140:2141 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+R2162:2163 StringHelper <> ::'['_x_','_'..'_','_x_']' not
+prf 2209:2244 <> okOnlyIfUserExistsAndPasswordMatches
+R2438:2440 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2391:2401 AuthenticationSystem <> check_login def
+R2326:2327 Coq.Lists.List <> In def
+R2338:2342 Coq.Strings.String <> :string_scope:x_'++'_x not
+R2364:2364 Coq.Strings.String <> :string_scope:x_'++'_x not
+R2343:2354 AuthenticationSystem <> compute_hash def
+R2311:2314 Coq.Init.Datatypes <> list ind
+R2316:2321 Coq.Strings.String <> string ind
+R2275:2280 Coq.Strings.String <> string ind
+R2275:2280 Coq.Strings.String <> string ind
